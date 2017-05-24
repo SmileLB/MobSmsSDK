@@ -14,6 +14,6 @@ public class MyApplication extends Application{
     @Override
     public void onCreate() {
         super.onCreate();
-        SMSSDK.initSDK(this, "1e2193bc06926", "ec8a27d8a4b29cff2619a06bb7dd1460");
+        SMSSDK.initSDK(this, "appkey", "appserect");
     }
 }
