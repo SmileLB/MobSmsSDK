@@ -24,6 +24,7 @@ import cn.smssdk.EventHandler;
 import cn.smssdk.SMSSDK;
 import cn.smssdk.utils.SMSLog;
 
+//libing
 public class MainActivity extends AppCompatActivity{
 
     private static final String DEFAULT_COUNTRY_ID = "42";

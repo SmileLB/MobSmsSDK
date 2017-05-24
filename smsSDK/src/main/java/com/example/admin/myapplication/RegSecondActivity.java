@@ -44,7 +44,7 @@ public class RegSecondActivity extends AppCompatActivity{
         initData();
         initEvent();
 
-        evenHanlder = new SMSEvenHanlder();
+        evenHanlder = new SMSEvenHanlder();//
         SMSSDK.registerEventHandler(evenHanlder);
 
     }
